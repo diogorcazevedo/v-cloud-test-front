@@ -3,11 +3,11 @@
 
 import React, {useEffect, useState} from "react";
 import {useRouter} from "next/navigation";
-import {AUTH_STORAGE} from "";
 import {api} from "../../services/api";
 import {getRequestError} from "../services/error";
 import {ErrorMessage} from "../../components/ErrorMessage";
 import Link from "next/link";
+import {AUTH_STORAGE} from "../../storage/storageConfig";
 
 
 export default function Store() {
