@@ -1,11 +1,11 @@
 'use client'
 
 import React, {useEffect, useState} from "react";
-import {FormInviteUpdate} from "@/components/forms/FormInviteUpdate";
-import {AUTH_STORAGE} from "@/storage/storageConfig";
-import {api} from "@/services/api";
-import {getRequestError} from "@/app/services/error";
-import {ErrorMessage} from "@/components/ErrorMessage";
+import {FormInviteUpdate} from "../../../../../../components/forms/FormInviteUpdate";
+import {AUTH_STORAGE} from "../../../../../../storage/storageConfig";
+import {api} from "../../../../../../services/api";
+import {getRequestError} from "../../../../../services/error";
+import {ErrorMessage} from "../../../../../../components/ErrorMessage";
 
 export default function Update({params}) {
 

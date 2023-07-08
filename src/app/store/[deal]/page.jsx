@@ -2,14 +2,14 @@
 
 
 import React, {useEffect, useState} from "react";
-import {AUTH_STORAGE, USER_STORAGE} from "@/storage/storageConfig";
-import {api} from "@/services/api";
+import {AUTH_STORAGE, USER_STORAGE} from "../../../storage/storageConfig";
+import {api} from "../../../services/api";
 import {useRouter} from "next/navigation";
-import SlideBidCreate from "@/components/SlideBidCreate";
-import {getRequestError} from "@/app/services/error";
-import {ErrorMessage} from "@/components/ErrorMessage";
-import SlideMessageCreate from "@/components/SlideMessageCreate";
-import SlideSaleCheckout from "@/components/SlideSaleCheckout";
+import SlideBidCreate from "../../../components/SlideBidCreate";
+import {getRequestError} from "../../services/error";
+import {ErrorMessage} from "../../../components/ErrorMessage";
+import SlideMessageCreate from "../../../components/SlideMessageCreate";
+import SlideSaleCheckout from "../../../components/SlideSaleCheckout";
 
 export default function Deal({ params }) {
 

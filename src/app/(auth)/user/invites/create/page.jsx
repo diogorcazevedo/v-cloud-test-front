@@ -1,10 +1,7 @@
 'use client'
 
 import React from "react";
-
-
-import {FormInviteCreate} from "@/components/forms/FormInviteCreate";
-import Link from "next/link";
+import {FormInviteCreate} from "../../../../../components/forms/FormInviteCreate";
 
 export default function Create() {
 

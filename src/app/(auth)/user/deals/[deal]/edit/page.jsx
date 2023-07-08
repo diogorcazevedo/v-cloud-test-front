@@ -2,18 +2,17 @@
 
 
 import React, {useEffect, useState} from "react";
-import {AUTH_STORAGE} from "@/storage/storageConfig";
-import {api} from "@/services/api";
-import {useForm} from "react-hook-form";
-import {FormDeal} from "@/components/forms/FormDeal";
-import {FormDealPhoto} from "@/components/forms/FormDealPhoto";
-import {useRouter} from "next/navigation";
-import {FormDealUrgency} from "@/components/forms/FormDealUrgency";
-import {FormDealLocation} from "@/components/forms/FormDealLocation";
-import {getRequestError} from "@/app/services/error";
-import {ErrorMessage} from "@/components/ErrorMessage";
 import Link from "next/link";
-import SlideFormDealActiveEdit from "@/components/forms/SlideFormDealActiveEdit";
+import {AUTH_STORAGE} from "../../../../../../storage/storageConfig";
+import {api} from "../../../../../../services/api";
+import {FormDeal} from "../../../../../../components/forms/FormDeal";
+import {FormDealPhoto} from "../../../../../../components/forms/FormDealPhoto";
+import {useRouter} from "next/navigation";
+import {FormDealUrgency} from "../../../../../../components/forms/FormDealUrgency";
+import {FormDealLocation} from "../../../../../../components/forms/FormDealLocation";
+import {getRequestError} from "../../../../../services/error";
+import {ErrorMessage} from "../../../../../../components/ErrorMessage";
+import SlideFormDealActiveEdit from "../../../../../../components/forms/SlideFormDealActiveEdit";
 
 export default function Edit({ params }) {
 

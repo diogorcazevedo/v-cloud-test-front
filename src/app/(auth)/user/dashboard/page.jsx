@@ -1,8 +1,7 @@
 'use client'
 
-import ListHomeDeals from "@/components/lists/ListHomeDeals";
-import ListHomeInvites from "@/components/lists/ListHomeInvites";
-
+import ListHomeDeals from "../../../../components/lists/ListHomeDeals";
+import ListHomeInvites from "../../../../components/lists/ListHomeInvites";
 
 
 export default function Dashboard() {

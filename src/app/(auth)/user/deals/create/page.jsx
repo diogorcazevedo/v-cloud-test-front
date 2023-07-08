@@ -2,16 +2,12 @@
 
 
 import React, {useEffect, useState} from "react";
-import {AUTH_STORAGE, USER_STORAGE} from "@/storage/storageConfig";
-import {api} from "@/services/api";
-import {AppError} from "@/utils/AppError";
-import {FormUser} from "@/components/forms/FormUser";
-import {FormLocation} from "@/components/forms/FormLocation";
-import {FormPassword} from "@/components/forms/FormPassword";
+import {AUTH_STORAGE, USER_STORAGE} from "../../../../../storage/storageConfig";
+import {api} from "../../../../../services/api";
 import {useRouter} from "next/navigation";
-import {getRequestError} from "@/app/services/error";
-import {ErrorMessage} from "@/components/ErrorMessage";
-import {FormDealCreate} from "@/components/forms/FormDealCreate";
+import {getRequestError} from "../../../../services/error";
+import {ErrorMessage} from "../../../../../components/ErrorMessage";
+import {FormDealCreate} from "../../../../../components/forms/FormDealCreate";
 
 export default function Profile() {
 

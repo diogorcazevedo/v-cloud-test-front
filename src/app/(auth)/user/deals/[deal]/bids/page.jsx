@@ -1,12 +1,12 @@
 'use client'
 
 import React, {useEffect, useState} from "react";
-import {AUTH_STORAGE} from "@/storage/storageConfig";
-import {api} from "@/services/api";
 import {useRouter} from "next/navigation";
-import SlideFormBidAcceptEdit from "@/components/forms/SlideFormBidAcceptEdit";
-import {getRequestError} from "@/app/services/error";
-import {ErrorMessage} from "@/components/ErrorMessage";
+import {AUTH_STORAGE} from "../../../../../../storage/storageConfig";
+import {api} from "../../../../../../services/api";
+import SlideFormBidAcceptEdit from "../../../../../../components/forms/SlideFormBidAcceptEdit";
+import {getRequestError} from "../../../../../services/error";
+import {ErrorMessage} from "../../../../../../components/ErrorMessage";
 
 
 export default function Bids({ params }) {

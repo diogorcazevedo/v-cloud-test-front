@@ -10,7 +10,7 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import {useRouter} from "next/navigation";
-import {AUTH_STORAGE, USER_STORAGE} from "@/storage/storageConfig";
+import {AUTH_STORAGE, USER_STORAGE} from "../../storage/storageConfig";
 
 const navigation = [
     { name: 'Loja Virtual', href: '/store', icon: HomeIcon, current: true },

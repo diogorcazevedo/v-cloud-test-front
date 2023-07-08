@@ -1,12 +1,12 @@
 'use client'
 
 import React, {useEffect, useState} from "react";
-import {AUTH_STORAGE, USER_STORAGE} from "@/storage/storageConfig";
-import {api} from "@/services/api";
+import {AUTH_STORAGE, USER_STORAGE} from "../../../../storage/storageConfig";
+import {api} from "../../../../services/api";
 import Link from "next/link";
 import {useRouter} from "next/navigation";
-import {ErrorMessage} from "@/components/ErrorMessage";
-import {getRequestError} from "@/app/services/error";
+import {ErrorMessage} from "../../../../components/ErrorMessage";
+import {getRequestError} from "../../../services/error";
 
 
 

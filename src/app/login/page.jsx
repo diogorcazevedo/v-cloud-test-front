@@ -1,7 +1,7 @@
 'use client'
 
 
-import FormLogin from "@/components/forms/FormLogin";
+import FormLogin from "../../components/forms/FormLogin";
 import Link from "next/link";
 
 
